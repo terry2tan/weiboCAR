@@ -7,13 +7,17 @@
 
 2.win7(暂时未在OS系统里测试过，不过应该没有什么问题)
 
+
+
 ##依赖包
 
 1.scrapy（安装：pip install scrapy）
 
 2.beautifulSoup（安装：pip install beautifulsoup）
 
-使用方法：
+
+
+##使用方法：
 
 1.在cookies.py里填上微博账号和密码；
 
@@ -39,6 +43,8 @@ scrapy crawl weiboCAR -a methon=*
 ```
 
 >*可以为repost(只抓转发)，comment（只抓评论），attitude（只抓点赞），all（前面三种都抓）。
+
+如：
 
 ```
 scrapy crawl weiboCAR -a methon=all
